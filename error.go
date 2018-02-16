@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/go-pg/pg/internal"
+	"github.com/Fyb3roptik/pg/internal"
 )
 
 var ErrNoRows = internal.ErrNoRows

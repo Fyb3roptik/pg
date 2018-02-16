@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-pg/pg/types"
+	"github.com/Fyb3roptik/pg/types"
 )
 
 // URLFilters is used with Query.Apply to add WHERE clauses from the URL values:

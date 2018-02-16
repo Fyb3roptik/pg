@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-pg/pg/internal"
+	"github.com/Fyb3roptik/pg/internal"
 )
 
 func Scan(v interface{}, b []byte) error {

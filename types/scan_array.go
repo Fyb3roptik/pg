@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/go-pg/pg/internal"
-	"github.com/go-pg/pg/internal/parser"
+	"github.com/Fyb3roptik/pg/internal"
+	"github.com/Fyb3roptik/pg/internal/parser"
 )
 
 func ArrayScanner(typ reflect.Type) ScannerFunc {

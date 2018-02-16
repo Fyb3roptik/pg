@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-pg/pg/internal"
-	"github.com/go-pg/pg/internal/pool"
-	"github.com/go-pg/pg/types"
+	"github.com/Fyb3roptik/pg/internal"
+	"github.com/Fyb3roptik/pg/internal/pool"
+	"github.com/Fyb3roptik/pg/types"
 )
 
 var errListenerClosed = errors.New("pg: listener is closed")

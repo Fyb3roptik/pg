@@ -3,7 +3,7 @@ package types
 import (
 	"time"
 
-	"github.com/go-pg/pg/internal"
+	"github.com/Fyb3roptik/pg/internal"
 )
 
 const (

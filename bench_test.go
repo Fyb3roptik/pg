@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-pg/pg"
-	"github.com/go-pg/pg/orm"
+	"github.com/Fyb3roptik/pg"
+	"github.com/Fyb3roptik/pg/orm"
 )
 
 func benchmarkDB() *pg.DB {

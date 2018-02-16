@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-pg/pg"
-	"github.com/go-pg/pg/orm"
+	"github.com/Fyb3roptik/pg"
+	"github.com/Fyb3roptik/pg/orm"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -736,7 +736,7 @@ var _ = Describe("errors", func() {
 
 type Genre struct {
 	// tableName is an optional field that specifies custom table name and alias.
-	// By default go-pg generates table name and alias from struct name.
+	// By default Fyb3roptik generates table name and alias from struct name.
 	tableName struct{} `sql:"genres,alias:genre"` // default values are the same
 
 	Id     int // Id is automatically detected as primary key

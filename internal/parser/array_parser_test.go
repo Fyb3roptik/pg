@@ -3,7 +3,7 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/go-pg/pg/internal/parser"
+	"github.com/Fyb3roptik/pg/internal/parser"
 )
 
 var arrayTests = []struct {
